@@ -122,8 +122,9 @@
   margin-right: 5px;
 }
 
-.card__image--imagenav-text {
+.card__image--imagenav-number {
   font-size: 14px;
+  color: #18121a;
 }
 
 .card__details--email {
