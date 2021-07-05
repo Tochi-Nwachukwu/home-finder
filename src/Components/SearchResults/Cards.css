@@ -36,9 +36,12 @@
 }
 .card__details {
   margin: 10px;
-  padding-left: 30px;
+  padding-left: 15px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
-
 .card__details-title {
   color: var(--text-white);
   font-size: 20px;
@@ -164,7 +167,6 @@
 
   .card__image {
     width: 238px;
-    height: 148px;
     background-image: url(./images/house.png);
     background-size: cover;
     border-radius: 15px;
@@ -176,6 +178,14 @@
   .card__details {
     margin: 10px;
     padding-left: 15px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .card__details-title {
+    font-size: 18px;
+    font-weight: 500;
   }
 }
 /* Media Queries */
@@ -183,7 +193,7 @@
 @media screen and (max-width: 768px) {
   .card__item {
     width: 100%;
-    height: 100%;
+    height: 2%;
     background-color: #18121a;
     border-radius: 12px;
     display: flex;
@@ -203,7 +213,6 @@
 
   .card__image {
     width: 238px;
-    height: 148px;
     background-image: url(./images/house.png);
     background-size: cover;
     border-radius: 15px;
@@ -215,6 +224,14 @@
   .card__details {
     margin: 10px;
     padding-left: 15px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .card__details-title {
+    font-size: 18px;
+    font-weight: 500;
   }
 }
 /* Media Queries */
@@ -222,7 +239,7 @@
 @media screen and (max-width: 481px) {
   .card__item {
     width: 100%;
-    height: 100%;
+    height: 2%;
     background-color: #18121a;
     border-radius: 12px;
     display: flex;
@@ -254,16 +271,20 @@
   .card__details {
     margin: 10px;
     padding-left: 15px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
   }
-
   .card__details-title {
-    font-size: 14px;
+    font-size: 18px;
+    font-weight: 500;
   }
 }
 @media screen and (max-width: 360px) {
   .card__item {
-    width: 90vw;
-    height: 100%;
+    width: 100%;
+    height: 3%;
     background-color: #18121a;
     border-radius: 12px;
     display: flex;
@@ -295,9 +316,14 @@
   .card__details {
     margin: 10px;
     padding-left: 15px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
   }
 
   .card__details-title {
-    font-size: 14px;
+    font-size: 18px;
+    font-weight: 500;
   }
 }
